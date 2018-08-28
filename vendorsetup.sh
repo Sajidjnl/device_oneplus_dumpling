@@ -1,2 +1,2 @@
-add_lunch_combo validus_dumpling-user
-add_lunch_combo validus_dumpling-userdebug
+add_lunch_combo lluvia_dumpling-user
+add_lunch_combo lluvia_dumpling-userdebug

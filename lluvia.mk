@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
 # Inherit some common Validus stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/lluvia/config/common_full_phone.mk)
 
-PRODUCT_NAME := validus_dumpling
+PRODUCT_NAME := lluvia_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -37,7 +37,7 @@ TARGET_VENDOR_DEVICE_NAME := OnePlus5T
 
 # Maintainer info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Martin Coulon (Martinusbe)"
+    DEVICE_MAINTAINERS="Syed Sajid"
 
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus5T PRODUCT_NAME=OnePlus5T
 
