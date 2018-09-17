@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lluvia.mk
+    $(LOCAL_DIR)/lluvia_dumpling.mk
